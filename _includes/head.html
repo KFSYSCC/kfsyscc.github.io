@@ -18,7 +18,7 @@
   
   <link rel="SHORTCUT ICON" href="/favicon.ico" />
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
 
   <!-- Bootstrap Core CSS -->
   <!--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" type="text/css" />-->
@@ -40,5 +40,10 @@
     <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
+
+  <script type="text/javascript">
+    if (location.host.match(/^localhost/) == null && location.protocol.match(/^https/i) == null)
+      location.protocol = 'https';
+  </script>
 
 </head>

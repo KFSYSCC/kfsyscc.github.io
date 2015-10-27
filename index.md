@@ -5,5 +5,5 @@ class: note
 ---
 
 <div class="colum">
-    檔案下載 首頁
+    請由左方清單選擇下載類別，謝謝。
 </div>

@@ -3,14 +3,15 @@ title: 和信治癌中心醫院 - Koo Foundation Sun Yat-Sen Cancer Center
 email: rd.software@kfsyscc.org
 description: 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://kfsyscc.github.io" # the base hostname & protocol for your site
+url: https://kfsyscc.github.io # the base hostname & protocol for your site
 twitter_username: 
 github_username:  KFSYSCC
 timezone: Asia/Taipei
 exclude: [ "CNAME", "WebSite.sublime-project" ]
-officialURL: "http://www.kfsyscc.org"
-homepage: "http://www.kfsyscc.org/"
-sitemap: "http://www.kfsyscc.org/sitemap/"
+enforce_ssl: kfsyscc.github.io
+officialURL: http://www.kfsyscc.org
+homepage: http://www.kfsyscc.org/
+sitemap: http://www.kfsyscc.org/sitemap/
 
 fb:
   app_id: 1627952920820693

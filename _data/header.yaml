@@ -1,0 +1,104 @@
+topNav:
+  - display: 門診時間表
+    url: /schedule/
+  - display: 藥品使用查詢
+    url: /med-search/
+  - display: 關於本院
+    url: /about/
+  - display: 常見問題
+    url: /faq/
+  - display: 贊助本院
+    url: /donate/
+  - display: 黃達夫基金會
+    url: /foundation/
+mainNav:
+  - display: 病人服務
+    url: /service/
+    items:
+      - display: 新病人指南
+        url: new-patients-guide/general/
+      - display: 掛號與門診
+        url: registered/
+      - display: 住院服務
+        url: inpatient/
+      - display: 社區癌症篩檢服務
+        url: bhp/
+      - display: 服務資源與設施
+        url: resource/
+      - display: 病人權利義務
+        url: rights/
+      - display: 緊急病況聯絡
+        url: emergency/
+      - display: 電子病歷推廣專區
+        url: emr/
+  - display: 癌症診療
+    url: /cancer/
+    items:
+      - display: 乳癌
+        url: breast-cancer/intro/
+      - display: 肺癌
+        url: lung-cancer/intro/
+      - display: 食道癌
+        url: esophageal-cancer/intro/
+      - display: 胃癌
+        url: gastric-cancer/intro/
+      - display: 大腸直腸癌
+        url: colorectal-cancer/intro/
+      - display: 泌尿系癌
+        url: urologic-oncology/intro/
+      - display: 婦癌
+        url: gynecologic-cancer/intro/
+      - display: 頭頸及鼻咽癌
+        url: head-neck-and-nasopharyngeal-carcinoma/intro/
+      - display: 肝癌
+        url: liver-cancer/intro/
+      - display: 甲狀腺癌
+        url: thyroid-cancer/intro/
+      - display: 血癌及淋巴癌
+        url: blood-cancer/intro/
+      - display: 治療後長期追蹤
+        url: long-term/intro/
+      - display: 治療‧護理‧照顧
+        url: #treat
+      - display: 心理支持與照顧
+        url: #treat
+      - display: 治療準則索取平台
+        url: download/treatment-guidelines.aspx
+  - display: 癌症篩檢與健檢
+    url: /healthcare/
+    items:
+      - display: 健康檢查項目
+        url: price/
+      - display: 健檢預約與繳款
+        url: appointment/
+      - display: 健檢前的準備工作
+        url: prepare/
+      - display: 健檢報告導讀
+        url: report/
+      - display: 常見問題
+        url: qa/
+  - display: 各科醫師
+    url: /physicians/
+  - display: 教學與研究
+    url: /research-and-edu/
+    items:
+      - display: 臨床治療成果
+        url: clinical-practice/
+      - display: 醫師教育
+        url: physician/intern/
+      - display: 護理人員教育
+        url: nurse/
+      - display: 醫技人員教育
+        url: othre-therapists/pharmacist/
+      - display: 醫師及醫事人員代訓
+        url: others/
+      - display: 醫學研究
+        url: medical/
+      - display: 活動行事曆
+        url: info/
+      - display: 圖書館
+        url: http://www.library.kfsyscc.org
+      - display: 人體試驗委員會
+        url: IRB/IRB-News/
+      - display: 台灣癌症病人共同照護計畫TAP
+        url: TAP/

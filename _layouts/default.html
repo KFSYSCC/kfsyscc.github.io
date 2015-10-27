@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW" xmlns="http://www.w3.org/1999/xhtml">
+{% include head.html %}
+<body style="zoom: 1;">
+    <div id="wrap">
+        {% include header.html %}
+
+        <div id="content" class="clearfix page">
+            <div id="sidebar">
+                <h2>{{ page.title }}</h2>
+                <ul>
+                    {% for sb in site.data.sitebar %}
+                    <li><a href="{{ sb.url }}">{{ sb.display }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="{{ page.class }}">
+                <div id="mainContent">
+                    <div class="breadcrumb">
+                        <a href="{{ site.officialURL }}">首頁</a>
+                        {% if page.permalink and page.notFound != true %}
+                        &gt;
+                        <a href="{{ page.url }}">{{ page.title }}</a>
+                        {% endif %}
+                    </div>
+                    <h1>{{ page.title }}</h1>
+                    {{ content }}
+                    <a class="top" href="javascript:void(0);" onclick="window.scrollTo(0, 0);">TOP</a>
+                </div>
+            </div>
+        </div>
+
+        {% include footer.html %}
+    </div>
+    <div class="foot">
+        <div class="clearfix">
+            <ul>
+                {% for f in site.data.foot %}
+                {% assign furl = f.url | prepend: site.officialURL %}
+                    <li>
+                        <a href="{{ furl }}">{{ f.display }}</a>
+                        {% if forloop.last == false %}
+                        |
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+            <span style="margin-right:10px;"><b>Copyright</b> © 醫療財團法人辜公亮基金會和信治癌中心醫院</span>
+            <span class="info">台灣 台北市北投區立德路125號 電話：(02) 2897-0011 / (02) 6603-0011</span>
+        </div>
+    </div>
+</body>
+</html>

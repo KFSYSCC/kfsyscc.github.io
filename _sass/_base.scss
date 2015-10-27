@@ -1,0 +1,15 @@
+div.colum.list {
+    ul, ol {
+        margin-left: 20px;
+        li {
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }
+    }
+    ul li {
+        list-style: disc;
+    }
+    ol li {
+        list-style: decimal;
+    }
+}

@@ -1,0 +1,94 @@
+baseurl: /attachments
+items:
+    - url: /HR/VS/
+      items:
+        - display:  附件1 - 主治醫師履歷表
+          url:      附件1-主治醫師履歷表.doc
+        - display:  附件2 - 當事人授權書
+          url:      附件2-當事人授權書.doc
+    - url: /HEL/self/
+      items:
+        - display:  骨髓抑制時之自我照顧
+          url:      骨髓抑制時之自我照顧.pdf
+        - display:  居家環境安全
+          url:      居家環境安全.pdf
+        - display:  如何正確洗手
+          url:      如何正確洗手.pdf
+        - display:  您需要知道的全靜脈營養劑居家使用法
+          url:      您需要知道的-全靜脈營養劑居家使用法.pdf
+        - display:  病人自控式止痛幫浦
+          url:      病人自控式給藥幫浦PCA PUMP.pdf
+        - display:  氣切造廔口之居家自我照顧
+          url:      氣切造廔口之居家自我照護.pdf
+        - display:  認識低血糖
+          url:      認識低血糖.pdf
+        - display:  居家化學治療藥物皮下注射法
+          url:      居家化學治療藥物皮下注射法.pdf
+        - display:  認識高血糖急症
+          url:      認識高血糖急症.pdf
+        - display:  引流球(J-P Ball)之居家自我照護
+          url:      引流球(J-P Ball)之居家自我照護.pdf
+        - display:  自我血糖自我監測
+          url:      自我監測血糖的重要性.pdf
+        - display:  經皮穿肝膽汁引流管之自我照護
+          url:      經皮穿肝膽汁引流管之自我照護.pdf
+        - display:  糖尿病與運動
+          url:      糖尿病與運動.pdf
+        - display:  胸/腹腔穿刺放液導管居家自我照護
+          url:      胸腹腔穿刺放液導管居家自我照護.pdf
+        - display:  糖尿病飲食原則
+          url:      糖尿病飲食原則.pdf
+        - display:  經皮腎臟造廔管居家自我照護
+          url:      經皮腎臟造廔管居家自我照護.pdf
+        - display:  甲狀腺手術後的自我照顧
+          url:      甲狀腺手術後自我照顧.pdf
+        - display:  認識鼻胃管及其居家自我照護
+          url:      認識鼻胃管及居家自我照護.pdf
+        - display:  肺部手術後自我照顧
+          url:      肺部手術後自我照顧.pdf
+        - display:  如何經鼻胃管灌食
+          url:      如何經鼻胃管灌食.pdf
+        - display:  認識化學治療引起之手足症候群
+          url:      認識化學治療引起之手足症候群.pdf
+        - display:  白血球生長素(G-CSF)自我注射
+          url:      白血球生長素(G-CSF)自我注射.pdf
+        - display:  根除性腎臟全切除術護理指導
+          url:      根除性腎臟全切除術護理指導.pdf
+        - display:  認識間歇性自我導尿
+          url:      認識間歇性自我導尿.pdf
+        - display:  女性私密處保養法
+          url:      女性私密處保養法.pdf
+        - display:  胃造瘻護理指導
+          url:      胃造廔護理指導.pdf
+        - display:  認識口服糖尿病藥物
+          url:      認識口服糖尿病藥物.pdf
+        - display:  大腸直腸術後照護
+          url:      大腸直腸術後照護.pdf
+        - display:  住院病人預防跌倒須知
+          url:      住院病人預防跌倒須知.pdf
+        - display:  結核病友須知
+          url:      結核病友須知.pdf
+        - display:  住院病童預防跌倒須知
+          url:      住院病童預防跌倒須知.pdf
+        - display:  根除性腎臟輸尿管全切除及膀胱袖口切除術護理指導
+          url:      根除性腎臟輸尿管全切除及膀胱袖口切除術護理指導.pdf
+        - display:  接受化學治療藥物期間的活動安全
+          url:      接受化學治療藥物期間的活動安全.pdf
+        - display:  外科手術傷口居家照顧
+          url:      外科手術傷口居家照顧.pdf
+        - display:  認識乳癌的荷爾蒙治療中Tamoxifen的角色
+          url:      認識乳癌的荷爾蒙治療中Tamoxifen的角色.pdf
+        - display:  留置導尿管居家護理
+          url:      留置導尿管居家護理.pdf
+        - display:  認識更年期症狀與日常照護 – 一
+          url:      認識更年期症狀與日常照護-一.pdf
+        - display:  認識更年期症狀與日常照護 – 二
+          url:      認識更年期症狀與日常照護-二.pdf
+        - display:  認識腫瘤急症
+          url:      認識腫瘤急症.pdf
+        - display:  人類乳突病毒與人類乳突病毒疫苗
+          url:      人類乳突病毒與人類乳突病毒疫苗.pdf
+        - display:  認識子宮頸抹片報告
+          url:      認識子宮頸抹片報告.pdf
+        - display:  認識疼痛
+          url:      認識疼痛.pdf

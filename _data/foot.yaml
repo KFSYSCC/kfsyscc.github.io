@@ -1,0 +1,14 @@
+- display: 網站索引
+  url: /sitemap/
+- display: 網站服務聲明
+  url: /user-agreement/
+- display: 院址交通
+  url: /location/
+- display: 聯絡我們
+  url: /contact-us/
+- display: 招募人才
+  url: /join-us/
+- display: 參與志工
+  url: /volunteer/
+- display: 相關連結
+  url: /friendly-linking/

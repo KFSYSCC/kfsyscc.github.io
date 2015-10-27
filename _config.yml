@@ -1,7 +1,7 @@
 # Site settings
 title: 和信治癌中心醫院 - Koo Foundation Sun Yat-Sen Cancer Center
 email: rd.software@kfsyscc.org
-description: 
+description: KFSYSCC WebSite Download platform
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://kfsyscc.github.io # the base hostname & protocol for your site
 twitter_username: 

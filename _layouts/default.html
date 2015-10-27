@@ -4,7 +4,6 @@
 <body style="zoom: 1;">
     <div id="wrap">
         {% include header.html %}
-
         <div id="content" class="clearfix page">
             <div id="sidebar">
                 <h2>{{ page.title }}</h2>
@@ -29,7 +28,6 @@
                 </div>
             </div>
         </div>
-
         {% include footer.html %}
     </div>
     <div class="foot">
@@ -39,9 +37,7 @@
                 {% assign furl = f.url | prepend: site.officialURL %}
                     <li>
                         <a href="{{ furl }}">{{ f.display }}</a>
-                        {% if forloop.last == false %}
-                        |
-                        {% endif %}
+                        {% if forloop.last == false %} | {% endif %}
                     </li>
                 {% endfor %}
             </ul>

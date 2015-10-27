@@ -7,43 +7,33 @@
   <meta name="author" content="{{ site.title }}" />
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:title" content="{{ site.title }}" />
-  <meta property="og:description" content="{{ site.description }}"/>
+  <meta property="og:description" content="{{ site.description }}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ site.url }}" />
   <meta property="fb:app_id" content="{{ fb.app_id }}" />
   <!--<meta property="fb:admins" content="550267135" />-->
   <base href="{{ site.baseurl }}/" />
-
   <title>{{ site.title }}{% if page.title %}{{ page.title | prepend: " - " }}{% endif %}</title>
-  
   <link rel="SHORTCUT ICON" href="/favicon.ico" />
-
   <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
-
   <!-- Bootstrap Core CSS -->
   <!--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" type="text/css" />-->
-
   <!-- Custom Fonts -->
   <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' />
   <link href='//fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css' />
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css" />
-
   <!-- Plugin CSS -->
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css" type="text/css" />
-
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" />
-
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
     <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
-
   <script type="text/javascript">
     if (location.host.match(/^localhost/) == null && location.protocol.match(/^https/i) == null)
       location.protocol = 'https';
   </script>
-
 </head>

@@ -10,6 +10,25 @@
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     ga('create', '{{ site.google.analytics }}', 'auto');
     ga('send', 'pageview');
+    $(window).on('ready', function() {
+        $('a[href]').each(function() {
+            var self = $(this);
+            var href = self.attr('href');
+            if(href.length > 0 && href.match(/^javascript:/i) == null) {
+                self.attr('x-href', href);
+                self.attr('href', 'javascript:void(0);')
+                self.on('click', function(e) {
+                    e.cancelBubble = true;
+                    e.returnValue = false;
+                    if (e.stopPropagation) {
+                        e.stopPropagation();
+                        e.preventDefault();
+                    }
+                    location.href = href;
+                });
+            }
+        });
+    });
 </script>
 
 <div id="footer">

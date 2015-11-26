@@ -11,26 +11,31 @@
     ga('create', '{{ site.google.analytics }}', 'auto');
     ga('send', 'pageview');
 </script>
+
 <div id="footer">
     <div class="bottomNav clearfix">
-        <h2>{{ site.title }}</h2>
-        {% for f in site.data.footer %}
-        {% assign furl = f.url | prepend: site.officialURL %}
+        <h2>{{ site.title }}</h2>{%
+        for f in site.data.footer %}{%
+        assign furl = f.url | prepend: site.officialURL %}
         <dl>
             <dt><a href="{{ furl }}">{{ f.display }}</a></dt>
-            {% for fi in f.items %}
-                {% if fi.break == true %}</ul><ul class="left">{% else %}
-                    {% if forloop.first == true %}<dd><ul class="left">{% endif %}
-                    {% if fi.url contains '://' %}
-                        {% assign fiurl = fi.url %}
-                    {% else %}
-                        {% assign fiurl = furl | append: fi.url %}
-                    {% endif %}
-                        <li><a href="{{ fiurl }}">{{ fi.display }}</a></li>
-                    {% if forloop.last == true %}</ul></dd>{% endif %}
-                {% endif %}
-            {% endfor %}
-        </dl>
-        {% endfor %}
+            {% for fi in f.items
+                %}{% if fi.break == true %}
+                </ul>
+                <ul class="left">{% else
+                    %}{% if forloop.first == true %}<dd>
+                <ul class="left">{% endif
+                    %}{% if fi.url contains '://'
+                        %}{% assign fiurl = fi.url
+                    %}{% else
+                        %}{% assign fiurl = furl | append: fi.url
+                    %}{% endif %}
+                    <li><a href="{{ fiurl }}">{{ fi.display }}</a></li>{%
+                    if forloop.last == true %}
+                </ul>
+            </dd>{% endif
+                %}{% endif %}{%
+            endfor %}
+        </dl>{% endfor %}
     </div>
 </div>

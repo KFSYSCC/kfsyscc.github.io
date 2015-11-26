@@ -2,23 +2,13 @@
 layout: default
 ---
 
-<div class="colum list">{%
-assign dls = site.data.downloads.items | where: "url", page.permalink %}{%
-for dl in dls %}{%
-    if page.list %}{%
-        if page.list == "ul" %}
-    <ul>{% endif %}{%
-        if page.list == "ol" %}
-    <ol>{% endif %}{%
-        for d in dl.items %}
-        <li><a href="{{ site.data.downloads.baseurl }}{{ dl.url }}{{ d.url }}">{{ d.display }}</a></li>{%
-        endfor %}{%
-        if page.list == "ul" %}
-    </ul>{% endif %}{%
-        if page.list == "ol" %}
-    </ol>{% endif %}{%
-    else %}
+<div class="colum list">{% assign dls = site.data.downloads.items | where: "url", page.permalink %}{%
+for dl in dls %}{% if page.list %}{% if page.list == "ul" %}
+    <ul>{% endif %}{% if page.list == "ol" %}
+    <ol>{% endif %}{% for d in dl.items %}
+        <li><a href="{{ site.data.downloads.baseurl }}{{ dl.url }}{{ d.url }}">{{ d.display }}</a></li>{% endfor %}{% if page.list == "ul" %}
+    </ul>{% endif %}{% if page.list == "ol" %}
+    </ol>{% endif %}{% else %}
         Not specify list type
-    {% endif %}{%
-endfor %}
+    {% endif %}{% endfor %}
 </div>

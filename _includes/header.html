@@ -1,47 +1,21 @@
 <div id="header" class="clearfix">
     <div class="topNav">
-        <ul class="clearfix">{%
-            for f in site.data.header.topNav %}{%
-            assign furl = f.url | prepend: site.officialURL %}
-            <li><a href="{{ furl }}">{{ f.display }}</a>{%
-                    if forloop.last == false %} | {% endif
-                %}</li>{%
-            endfor %}
+        <ul class="clearfix">{% for f in site.data.header.topNav %}{% assign furl = f.url | prepend: site.officialURL %}
+            <li><a href="{{ furl }}">{{ f.display }}</a>{% if forloop.last == false %} | {% endif %}</li>{% endfor %}
         </ul>
     </div>
     <a class="logo" href="{{ site.officialURL }}" title="{{ site.title }}">{{ site.title }}</a>
     <div id="mainNav">
-        <ul class="clearfix">{%
-            for f in site.data.header.mainNav %}{%
-            assign furl = f.url | prepend: site.officialURL %}{%
-                if forloop.first == true %}
-            <li class="first">{% endif %}{%
-                if forloop.last == true %}
-            <li class="last">{% endif %}{%
-                if forloop.first != true and forloop.last != true %}
-            <li>{% endif
-                %}<a href="{{ furl }}">{{ f.display }}</a>{%
-                    if f.items %}
-                <ul class="subNav">{%
-                    for fi in f.items %}{%
-                    if fi.url contains '://' %}{%
-                        assign fiurl = fi.url %}{%
-                    else %}{%
-                        assign fiurl = furl | append: fi.url %}{%
-                    endif %}{%
-                    if forloop.first == true %}
-                    <li class="first">{% endif %}{%
-                    if forloop.last == true %}
-                    <li class="last">{% endif %}{%
-                    if forloop.first != true and forloop.last != true %}
-                    <li>{%
-                    endif
-                    %}<a href="{{ fiurl }}">{{ fi.display }}</a></li>{%
-                    endfor %}
-                </ul>{%
-                endif %}
-            </li>{%
-            endfor %}
+        <ul class="clearfix">{% for f in site.data.header.mainNav %}{% assign furl = f.url | prepend: site.officialURL %}{% if forloop.first == true %}
+            <li class="first">{% endif %}{% if forloop.last == true %}
+            <li class="last">{% endif %}{% if forloop.first != true and forloop.last != true %}
+            <li>{% endif %}<a href="{{ furl }}">{{ f.display }}</a>{% if f.items %}
+                <ul class="subNav">{% for fi in f.items %}{% if fi.url contains '://' %}{% assign fiurl = fi.url %}{% else %}{% assign fiurl = furl | append: fi.url %}{% endif %}{% if forloop.first == true %}
+                    <li class="first">{% endif %}{% if forloop.last == true %}
+                    <li class="last">{% endif %}{% if forloop.first != true and forloop.last != true %}
+                    <li>{% endif %}<a href="{{ fiurl }}">{{ fi.display }}</a></li>{% endfor %}
+                </ul>{% endif %}
+            </li>{% endfor %}
         </ul>
     </div>
 </div>

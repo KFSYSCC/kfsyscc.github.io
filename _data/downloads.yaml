@@ -92,3 +92,37 @@ items:
         url:      認識子宮頸抹片報告.pdf
       - display:  認識疼痛
         url:      認識疼痛.pdf
+  - url:          /OP/DOC/
+    items:
+      - display:  通用版手術同意書
+        url:      A01通用版手術同意書.pdf
+      - display:  麻醉說明與同意書
+        url:      A02+A03麻醉說明與同意書.pdf
+      - display:  輸血治療知情同意書
+        url:      A04輸血治療知情同意書.pdf
+  - url:          /OP/GUIDE/
+    items:
+      - display:  手術麻醉前準備注意事項
+        url:      B01手術麻醉前準備注意事項.pdf
+      - display:  手術麻醉諮詢門診流程簡介
+        url:      B02手術麻醉諮詢門診流程簡介.pdf
+      - display:  病人自控式止痛(PCA)
+        url:      B03病人自控式止痛(PCA).pdf
+      - display:  病人自控式硬脊膜外止痛(PCEA)
+        url:      B04病人自控式硬脊膜外止痛(PCEA).pdf
+      - display:  超音波導引脊側神經阻斷術(PVB)
+        url:      B05超音波導引脊側神經阻斷術(PVB).pdf
+      - display:  超音波導引腹橫肌阻斷術(TAP)
+        url:      B06超音波導引腹橫肌阻斷術(TAP).pdf
+      - display:  超音波導引腰方肌阻斷術(QL)
+        url:      B07超音波導引腰方肌阻斷術(QL).pdf
+      - display:  手術當日麻醉流程注意事項說明
+        url:      B08手術當日麻醉流程注意事項說明.pdf
+      - display:  麻醉風險知多少
+        url:      B09麻醉風險知多少.pdf
+      - display:  麻醉方式說明
+        url:      B10麻醉方式說明.pdf
+      - display:  術後常見問題與處置
+        url:      C01術後常見問題與處置.pdf
+      - display:  認識冠狀動脈心臟病(冠心症)
+        url:      D01認識冠狀動脈心臟病(冠心症).pdf

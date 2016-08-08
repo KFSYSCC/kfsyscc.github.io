@@ -2,3 +2,7 @@
   url: /HR/VS/
 - display: 衛教單張 - 自我照護
   url: /HEL/self/
+- display: 手術、麻醉與止痛 - 手術相關文件
+  url: /OP/DOC/
+- display: 手術、麻醉與止痛 - 麻醉相關衛教指引
+  url: /OP/GUIDE/

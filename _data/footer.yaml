@@ -47,9 +47,9 @@
     - display: 治療後長期追蹤
       url: long-term/intro/
     - display: 治療‧護理‧照顧
-      url: #treat
+      url: "#treat"
     - display: 心理支持與照顧
-      url: #treat
+      url: "#treat"
     - display: 治療準則索取平台
       url: download/treatment-guidelines.aspx
 - display: 癌症篩檢與健檢

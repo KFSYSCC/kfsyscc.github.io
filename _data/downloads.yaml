@@ -92,6 +92,12 @@ items:
         url:      認識子宮頸抹片報告.pdf
       - display:  認識疼痛
         url:      認識疼痛.pdf
+      - display:  乳房手術後居家照護須知
+        url:      乳房手術後居家照護須知.pdf
+      - display:  如何預防上肢淋巴水腫及其併發症
+        url:      如何預防上肢淋巴水腫及其併發症.pdf
+      - display:  美容膠帶使用須知
+        url:      美容膠帶使用須知.pdf
   - url:          /OP/DOC/
     items:
       - display:  通用版手術同意書

@@ -200,7 +200,7 @@ items:
             name: 超音波導引脊側神經阻斷術(PVB)
             qr:   oT8BWH
           - code: C04
-            name: 超音波導引腹橫肌阻斷術(TAP)
+            name: 超音波定位腹壁區域減痛術(TAP)
             qr:   LFCmcD
           - code: C05
             name: 超音波導引腰方肌阻斷術(QL)
@@ -208,18 +208,18 @@ items:
       - name:     麻醉中
         items:
           - code: D01
-            name: 手術當日麻醉流程注意事項說明
+            name: 手術當日注意事項
             qr:   mpA7KR
           - code: D02
             name: 麻醉風險知多少
             qr:   ZOtpWi
           - code: D03
-            name: 麻醉方式說明
+            name: 麻醉有哪幾種常見方式呢
             qr:   69f7sK
       - name:     麻醉後
         items:
           - code: E01
-            name: 術後常見問題與處置
+            name: 手術麻醉術後常見問題與處置
             qr:   EEb5Gb
       - name:     相關衛教
         items:

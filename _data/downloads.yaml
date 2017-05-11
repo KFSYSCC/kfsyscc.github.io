@@ -144,6 +144,18 @@ items:
         url:      A02+A03麻醉說明與同意書.pdf
       - display:  輸血治療知情同意書
         url:      A04輸血治療知情同意書.pdf
+    obj:
+      - name:     同意書
+        items:
+          - code: A01
+            name: 手術同意書
+            qr:   t8QQlZ
+          - code: A02+A03
+            name: 麻醉同意書、止痛同意書
+            qr:   BPySDC
+          - code: A04
+            name: 輸血同意書
+            qr:   ckyEXb
   - url:          /OP/GUIDE/
     items:
       - display:  手術麻醉諮詢門診流程簡介
@@ -170,3 +182,47 @@ items:
         url:      E01術後常見問題與處置.pdf
       - display:  認識冠狀動脈心臟病(冠心症)
         url:      F01認識冠狀動脈心臟病(冠心症).pdf
+    obj:
+      - name:     麻醉前
+        items:
+          - code: B01
+            name: 手術麻醉前準備注意事項
+            qr:   RAlDZX
+      - name:     各式止痛方式說明
+        items:
+          - code: C01
+            name: 病人自控式止痛(PCA)
+            qr:   TO7RgO
+          - code: C02
+            name: 病人自控式硬脊膜外止痛(PCEA)
+            qr:   bcMhsy
+          - code: C03
+            name: 超音波導引脊側神經阻斷術(PVB)
+            qr:   oT8BWH
+          - code: C04
+            name: 超音波導引腹橫肌阻斷術(TAP)
+            qr:   LFCmcD
+          - code: C05
+            name: 超音波導引腰方肌阻斷術(QL)
+            qr:   lMa781
+      - name:     麻醉中
+        items:
+          - code: D01
+            name: 手術當日麻醉流程注意事項說明
+            qr:   mpA7KR
+          - code: D02
+            name: 麻醉風險知多少
+            qr:   ZOtpWi
+          - code: D03
+            name: 麻醉方式說明
+            qr:   69f7sK
+      - name:     麻醉後
+        items:
+          - code: E01
+            name: 術後常見問題與處置
+            qr:   EEb5Gb
+      - name:     相關衛教
+        items:
+          - code: F01
+            name: 認識冠狀動脈心臟病(冠心症)
+            qr:   ZpvbYT

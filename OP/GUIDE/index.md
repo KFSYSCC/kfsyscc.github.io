@@ -29,16 +29,10 @@ custom: true
 	</tr>
 	<tr>
 		<td><img style="width: 80px; height: 80px;" src="https://goo.gl/RAlDZX.qr" /></td>
-		<td rowspan="2">麻醉前</td>
+		<td rowspan="1">麻醉前</td>
 		<td>B01</td>
 		<td>手術麻醉前準備注意事項</td>
 		<td><a href="https://goo.gl/RAlDZX"><img src="/img/Adobe_PDF_file_icon_32x32.png" /></a></td>
-	</tr>
-	<tr>
-		<td><img style="width: 80px; height: 80px;" src="https://goo.gl/UDpTdB.qr" /></td>
-		<td>B02</td>
-		<td>手術麻醉諮詢門診流程簡介</td>
-		<td><a href="https://goo.gl/UDpTdB"><img src="/img/Adobe_PDF_file_icon_32x32.png" /></a></td>
 	</tr>
 	<tr>
 		<td><img style="width: 80px; height: 80px;" src="https://goo.gl/TO7RgO.qr" /></td>

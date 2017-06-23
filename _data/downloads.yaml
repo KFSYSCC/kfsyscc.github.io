@@ -183,11 +183,6 @@ items:
       - display:  認識冠狀動脈心臟病(冠心症)
         url:      D01認識冠狀動脈心臟病(冠心症).pdf
     obj:
-      - name:     麻醉前
-        items:
-          - code: B01
-            name: 手術麻醉前準備注意事項
-            qr:   RAlDZX
       - name:     各式止痛方式說明
         items:
           - code: C01

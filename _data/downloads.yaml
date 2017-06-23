@@ -205,22 +205,6 @@ items:
           - code: C05
             name: 超音波導引腰方肌阻斷術(QL)
             qr:   lMa781
-      - name:     麻醉中
-        items:
-          - code: D01
-            name: 手術當日注意事項
-            qr:   mpA7KR
-          - code: D02
-            name: 麻醉風險知多少
-            qr:   ZOtpWi
-          - code: D03
-            name: 麻醉有哪幾種常見方式呢
-            qr:   69f7sK
-      - name:     麻醉後
-        items:
-          - code: E01
-            name: 手術麻醉術後常見問題與處置
-            qr:   EEb5Gb
       - name:     相關衛教
         items:
           - code: F01

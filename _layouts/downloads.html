@@ -5,8 +5,9 @@ layout: default
 {% if page.custom == nil %}<div class="colum list">{% assign dls = site.data.downloads.items | where: "url", page.permalink %}{% for dl in dls %}{% if page.list %}{% if page.list == "ul" %}
     <ul>{% endif %}{% if page.list == "ol" %}
     <ol>{% endif %}{% for d in dl.items %}
-        <li>{% if d.cate != nil && d.cate == "web" %} <a href="{{ d.url }}">{{ d.display }}</a>
-		{% else %}<a href="{{ site.data.downloads.baseurl }}{{ dl.url }}{{ d.url }}">{{ d.display }}</a>
+        <li>{% if d.cate == nil %} <a href="{{ site.data.downloads.baseurl }}{{ dl.url }}{{ d.url }}">{{ d.display }}</a>
+		{% else if d.cate == "web" %} <a href="{{ d.url }}">{{ d.display }}</a>
+		{% else %}Not specify list type
 		{% endif %}</li>
 		{% endfor %}{% if page.list == "ul" %}
     </ul>{% endif %}{% if page.list == "ol" %}

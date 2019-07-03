@@ -139,6 +139,9 @@ items:
       - display:  TEST
         url:      https://drive.google.com/file/d/1WsQ3D74FZb-c9qHhDLOWjw28-jZTqXHg/view?usp=sharing
         cate:     web
+      - display:  認識高血糖急症
+        url:      https://drive.google.com/open?id=1w65L3nWa_nY56YWU_X9WUxy-o46eQc-J
+        cate:     web
   - url:          /OP/DOC/
     items:
       - display:  通用版手術同意書

@@ -9,21 +9,26 @@ items:
   - url:          /HEL/self/
     items:
       - display:  骨髓抑制時之自我照顧
-        url:      骨髓抑制時之自我照顧.pdf
-      - display:  居家環境安全
-        url:      居家環境安全.pdf
+        url:      https://drive.google.com/open?id=1BgoIzbw_5lIrM6H19UH-aSQTkum5_gzV
+        cate:     web
       - display:  如何正確洗手
-        url:      如何正確洗手.pdf
+        url:      https://drive.google.com/open?id=1lukkr6xTeS3weNnvppsBE5HhsAqjB-hu
+        cate:     web
       - display:  您需要知道的全靜脈營養劑居家使用法
-        url:      您需要知道的-全靜脈營養劑居家使用法.pdf
+        url:      https://drive.google.com/open?id=1h_WPIdGCsCWAyh_CuHwCkIF9AQHu16dV
+        cate:     web
       - display:  病人自控式止痛幫浦
-        url:      病人自控式給藥幫浦PCA PUMP.pdf
+        url:      https://drive.google.com/open?id=1_CkPfGDojW9_ZjG3QBgq1zRHQm92H3J-
+        cate:     web
       - display:  氣切造廔口之居家自我照顧
-        url:      氣切造廔口之居家自我照護.pdf
+        url:      https://drive.google.com/file/d/1Kz0JKdS6TfD1aX5mck9LRXID5Umm-Xzx
+        cate:     web
       - display:  認識低血糖
-        url:      認識低血糖.pdf
+        url:      https://drive.google.com/file/d/1mD0sT6DonflEG008CX8ltKoiIKGw-bk4
+        cate:     web
       - display:  居家化學治療藥物皮下注射法
-        url:      居家化學治療藥物皮下注射法.pdf
+        url:      https://drive.google.com/file/d/1bGRC8hVajL5G6bhXDDWM3XWAG7BAs8me
+        cate:     web
       - display:  引流球(J-P Ball)之居家自我照護
         url:      引流球(J-P Ball)之居家自我照護.pdf
       - display:  自我血糖自我監測
